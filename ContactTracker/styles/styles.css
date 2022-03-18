@@ -1,0 +1,127 @@
+.error {
+  color: darkred;
+  display: none;
+}
+
+.textbar {
+  width: 400px;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.container{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#titlebar {
+  border-bottom: 5px solid #1185b7;
+  height: 110px;
+}
+
+#profile-pic {
+  margin: 0px;
+  padding: 0px;
+  height: 60px;
+  width: 60px;
+  background-color: #23a0fa;
+  border-radius: 100px;
+}
+
+@media print{
+  .no-print{
+    display: none;
+  }
+}
+
+.nav {
+  background-color: #656565;
+  margin-bottom: 10px;
+}
+
+.nav a {
+  margin-left: 20px;
+  color: white;
+}
+
+.letter-nav {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lr {
+  border-left: 1px solid black;
+}
+
+.facility-full {
+  margin-bottom: 20px;
+}
+
+.facility-title {
+  border-right: 1px solid;
+  padding-right: 45px;
+  height: 200px;
+}
+
+.facility-info {
+  padding-left: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.addbtn {
+  background-color: #c2e2ff;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.letter,
+.list-nav {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+#search {
+  height: 43px;
+}
+
+/*     Login Styles     */
+#jumbotronContainer {
+  height: 100vh;
+}
+
+.editOptions {
+  display: none;
+}
+
+.removeCol {
+  display: none;
+}
+
+/* Main page */
+#logo {
+  width: 100px;
+}
+
+#example_wrapper {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+tfoot tr th input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: transparent;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animal Game</title>
+    <style>
+      img {
+        margin: auto 0;
+        height: 200px;
+      }
+
+      #animalPics {
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="animalGameBox">
+      <h1>Animal Game</h1>
+      <h3>Click on the picture that matches the word.</h3>
+      <p id="animalName"></p>
+
+      <section id="animalBox"></section>
+      <h3 id="result">You can do it!</h3>
+      <button id="anotherRound">Another Round!</button>
+      <p id="score"></p>
+      <section id="instructions">
+        <h3>Instructions:</h3>
+        <p>
+          Welcome! To play, start by pressing the 'Another Round!' button. This
+          will display four images of various animals. Above those pictures will
+          be a name of one of the animals (in green), and it is your job to
+          figure out which animal it is, and when you do, your score will
+          increase by one point, but will decrease by one point if you're
+          incorrect. Good luck!
+        </p>
+      </section>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+#animalGameBox {
+  padding: 10px;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#animalGameBox img {
+  padding: 5px;
+}
+
+#animalName {
+  color: green;
+  font-weight: bold;
+}
+
+#result {
+  font-weight: bold;
+}
+
+#score {
+  border: 1px solid;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 50px;
+}
+
+#instructions {
+  margin: 0 auto;
+  width: 500px;
+}
+
+/* #instructions h3 {
+  text-decoration: underline;
+} */
+
+.border {
+  border: 3px solid;
+  border-color: blue;
+}
